@@ -6,7 +6,7 @@ This repository is for Log4j 2021 (CVE-2021-44228) Vulnerability demonstration a
 
 The CVE-2021-44228 / Log4Shell vulnerability consists of injecting vulnerable software with a malicious payload, which will ask Log4J to obtain a value from a third-party source, with JNDI and through the LDAP protocol. ... The imported data can be code, which will be executed by Log4J on the system.
 
-## Proof of concept
+## Proof of concept ([VIDEO TUTORIAL](https://youtu.be/E_KfwimVTIA))
 
 1. We run a Spring Boot web application vulnerable to CVE-2021-44228 in Docker, nicknamed Log4Shell by @christophetd.
 It uses Log4j 2.14.1 (through spring-boot-starter-log4j2 2.6.1) and the JDK 1.8.0_181.
